@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header .logo{
+    width: 65px;
+    height: 65px;
+}
+
+header nav dl{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+header nav dl dd{
+    margin: 20px;
+    cursor: pointer;
+}
+
+header .entrar{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 12px 30px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+header .entrar .material-symbols-outlined{
+    margin-right: 10px;
+}
+
+main .fundo{
+    position: absolute;
+    background-color: #2c363a;
+    top: 0;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items:center;
+}
+
+main .fundo img{
+    width: 100%;
+    height: 100%;
+}
+
+main .fundo .texto{
+    position: absolute;
+    margin-left:60px;
+}
+
+main .fundo .texto h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+main .fundo .texto h2{
+    color: #fff;
+    font-weight: 400;
+    font-size:20px
+}
+
+main .fundo .texto .vejamais, main .container .infos .texto .botao{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+
+main .fundo .texto .vejamais:hover{
+    background-color: #dc1d2a;
+}
+
+main .container{
+    width: 100%;
+    margin-top: 470px;
+    height: 600px;
+    display: flex;
+}
+
+main .container .infos{
+    width: 50%;
+    height:100%;
+    background-color:#fff;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+main .container .infos .texto{
+    margin: 50px;
+}
+
+main .container .infos .texto .botao{
+    color: #000 !important;
+    border-color: #000;
+    position: relative;
+    z-index: 1;
+}
+
+main .container .infos .texto .botao:hover{
+    background-color:#000;
+    color: #fff !important;
+}
+
+main .container .infos .texto p{
+    font-size:  20px;
+}
+
+main .container .img{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(126.17deg,#e03021,#f4b73f),#c4c4c4;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+footer{
+    position: relative;
+    margin-top: -250px;
+    height: 500px
+}
+
+
+footer .infos{
+    width: 100%;
+    height: 250px;
+    margin-top:-5px;
+    padding-top: 50px;
+    background-color: #dc1d2a;
+    color: #fff;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+footer .infos p{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer .infos .tell{
+    position: relative;
+    color: #fff !important;
+    
+
+}
+
+footer .infos .tell svg{
+    width: 150px;
+    fill: #fff;
+}
+
+
+footer .infos .redes .cadastrar,
+footer .infos .redes .regulamento{
+    width: 120px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-weight:500;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+footer .infos .redes .cadastrar{
+    background-color: #fff;
+    color: #000;
+}
+
+
+footer .infos .redes .sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .infos  .redes .sociais svg{
+    width: 20px;
+    height: 20px;
+    fill: #dc1d2a;
+}
+
+footer .infos  .redes .sociais .facebook,
+footer .infos  .redes .sociais .twitter,
+footer .infos  .redes .sociais .youtube,
+footer .infos  .redes .sociais .instagram{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+    border:  2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .infos  .redes .sociais .facebook:hover,
+footer .infos  .redes .sociais .twitter:hover,
+footer .infos  .redes .sociais .youtube:hover,
+footer .infos  .redes .sociais .instagram:hover{
+    background-color: #dc1d2a;
+    border:  2px solid #fff;
+}
+
+footer .infos  .redes .sociais .facebook:hover svg,
+footer .infos  .redes .sociais .twitter:hover svg,
+footer .infos  .redes .sociais .youtube:hover svg,
+footer .infos  .redes .sociais .instagram:hover svg{
+    fill: #fff;
+}
